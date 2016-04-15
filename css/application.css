@@ -367,7 +367,7 @@ textarea {
 body {
   background: #e74f36;
   height: 100vh;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .clearfix:before,
 .clearfix:after {
@@ -419,18 +419,18 @@ p, ul, ol {
 
 footer {
   border-top: 1px solid #ffffff;
-  margin-top: 5em;
-  padding-top: 1.5em; }
+  margin-top: 10em;
+  padding-top: 2em; }
   footer .copyright {
     float: left;
-    font-size: 1.5rem;
+    font-weight: 100;
+    font-size: 1.5em;
     color: #ffffff; }
   footer nav {
     float: right; }
     footer nav a {
       font-size: 1.5em;
       margin-left: .75em;
-      font-size: 1.2rem;
       color: #ffffff; }
 
 header {
@@ -439,7 +439,7 @@ header {
     float: left; }
   header nav {
     float: right;
-    margin-top: 1.5em; }
+    margin-top: 1.75em; }
     header nav ul {
       list-style: none;
       margin: 0; }
@@ -454,14 +454,15 @@ header {
         header nav ul li .button-tambah {
           text-decoration: none;
           text-transform: uppercase;
-          padding: .75em 1.5em;
+          font-weight: 400;
+          padding: .8em 1.5em;
           border: 2px solid #ffffff;
           transition: background .4s ease-in-out;
           border-radius: .5em;
           color: #ffffff;
           background: #d4523c; }
           header nav ul li .button-tambah:hover {
-            background: #8b2e1f; }
+            background: #b53c28; }
 
 #welcome_content {
   text-align: center; }
@@ -472,7 +473,7 @@ header {
     margin-top: 1.5em;
     margin-bottom: .5em; }
     #welcome_content h1 b {
-      font-weight: 400; }
+      font-weight: 300; }
   #welcome_content input[type="text"] {
     height: 3.5em;
     border-radius: .75em;

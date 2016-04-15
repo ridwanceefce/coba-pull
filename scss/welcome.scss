@@ -7,7 +7,7 @@ header {
   }
   nav {
     float: right;
-    margin-top: 1.5em;
+    margin-top: 1.75em;
     ul {
       list-style: none;
       margin: 0;
@@ -23,14 +23,15 @@ header {
         .button-tambah {
           text-decoration: none;
           text-transform: uppercase;
-          padding: .75em 1.5em;
+          font-weight: 400;
+          padding: .8em 1.5em;
           border: 2px solid $white;
           transition: background .4s ease-in-out;
           border-radius: .5em;
           color: $white;
           background: $red-dark;
           &:hover {
-            background: darken($red-dark, 20%);
+            background: darken($red-dark, 10%);
           }
         }
       }
@@ -47,7 +48,7 @@ header {
     margin-top: 1.5em;
     margin-bottom: .5em;
     b {
-      font-weight: 400;
+      font-weight: 300;
     }
   }
   input[type="text"] {
