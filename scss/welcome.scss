@@ -1,60 +1,49 @@
-
-
-header {
-  padding-top: 2em;
-  #logo {
-    float: left;
-  }
-  nav {
-    float: right;
-    margin-top: 1.75em;
-    ul {
-      list-style: none;
-      margin: 0;
-      li {
-        display: inline-block;
-        margin-left: 2em;
-        font-size: 1.5rem;
-        a {
-          text-decoration: none;
-          font-weight: 700;
-          color: $white;
-        }
-        .button-tambah {
-          text-decoration: none;
-          text-transform: uppercase;
-          font-weight: 400;
-          padding: .8em 1.5em;
-          border: 2px solid $white;
-          transition: background .4s ease-in-out;
-          border-radius: .5em;
-          color: $white;
-          background: $red-dark;
-          &:hover {
-            background: darken($red-dark, 10%);
+#background {
+  height: 100vh;
+  background-size: cover;
+  background: $red-light;
+  header {
+    padding-top: 2em;
+    #logo {
+      float: left;
+    }
+    nav {
+      float: right;
+      margin-top: 1.75em;
+      ul {
+        list-style: none;
+        margin: 0;
+        li {
+          display: inline-block;
+          margin-left: 2em;
+          font-size: 1.5rem;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            color: $white;
           }
         }
       }
     }
   }
-}
 
-#welcome_content {
-  text-align: center;
-  h1 {
-    font-size: 5.33rem;
-    font-weight: 100;
-    color: $white;
-    margin-top: 1.5em;
-    margin-bottom: .5em;
-    b {
-      font-weight: 300;
+  #welcome_content {
+    text-align: center;
+    h1 {
+      font-size: 5.33rem;
+      font-weight: 100;
+      color: $white;
+      margin-top: 1.5em;
+      margin-bottom: .5em;
+      b {
+        font-weight: 300;
+      }
     }
-  }
-  input[type="text"] {
-    height: 3.5em;
-    border-radius: .75em;
-    border: 6px solid $red-dark;
-    margin-bottom: 2em;
+    input[type="text"] {
+      height: 3.5em;
+      border-radius: .75em;
+      border: 6px solid $red-dark;
+      margin-bottom: 2em;
+    }
   }
 }

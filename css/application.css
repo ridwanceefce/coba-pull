@@ -365,7 +365,7 @@ textarea {
   /* 2 */ }
 
 body {
-  background: #e74f36;
+  background: #ffffff;
   height: 100vh;
   font-family: 'Roboto', sans-serif; }
 
@@ -380,6 +380,9 @@ body {
 .wrapper_wide {
   width: 90%;
   margin: 0 auto; }
+
+.wrapper_padding {
+  padding: 0 1.5rem; }
 
 .wrapper {
   width: 80%;
@@ -417,6 +420,32 @@ p, li {
 p, ul, ol {
   margin: 0 0 1.6em 0; }
 
+.button_tambah {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: .8em 1.5em;
+  border: 2px solid #ffffff;
+  transition: background .4s ease-in-out;
+  border-radius: .5em;
+  color: #ffffff;
+  background: #d4523c; }
+  .button_tambah:hover {
+    background: #b53c28; }
+
+.button_tambah_mini {
+  padding: .25em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 2px solid #ffffff;
+  transition: background .4s ease-in-out;
+  border-radius: .5em;
+  color: #ffffff;
+  background: #d4523c; }
+  .button_tambah_mini:hover {
+    background: #b53c28; }
+
 footer {
   border-top: 1px solid #ffffff;
   margin-top: 10em;
@@ -433,51 +462,74 @@ footer {
       margin-left: .75em;
       color: #ffffff; }
 
-header {
-  padding-top: 2em; }
-  header #logo {
-    float: left; }
-  header nav {
-    float: right;
-    margin-top: 1.75em; }
-    header nav ul {
-      list-style: none;
-      margin: 0; }
-      header nav ul li {
-        display: inline-block;
-        margin-left: 2em;
-        font-size: 1.5rem; }
-        header nav ul li a {
-          text-decoration: none;
-          font-weight: 700;
-          color: #ffffff; }
-        header nav ul li .button-tambah {
-          text-decoration: none;
-          text-transform: uppercase;
-          font-weight: 400;
-          padding: .8em 1.5em;
-          border: 2px solid #ffffff;
-          transition: background .4s ease-in-out;
-          border-radius: .5em;
-          color: #ffffff;
-          background: #d4523c; }
-          header nav ul li .button-tambah:hover {
-            background: #b53c28; }
+#background {
+  height: 100vh;
+  background-size: cover;
+  background: #e74f36; }
+  #background header {
+    padding-top: 2em; }
+    #background header #logo {
+      float: left; }
+    #background header nav {
+      float: right;
+      margin-top: 1.75em; }
+      #background header nav ul {
+        list-style: none;
+        margin: 0; }
+        #background header nav ul li {
+          display: inline-block;
+          margin-left: 2em;
+          font-size: 1.5rem; }
+          #background header nav ul li a {
+            text-decoration: none;
+            font-weight: 700;
+            color: #ffffff; }
+  #background #welcome_content {
+    text-align: center; }
+    #background #welcome_content h1 {
+      font-size: 5.33rem;
+      font-weight: 100;
+      color: #ffffff;
+      margin-top: 1.5em;
+      margin-bottom: .5em; }
+      #background #welcome_content h1 b {
+        font-weight: 300; }
+    #background #welcome_content input[type="text"] {
+      height: 3.5em;
+      border-radius: .75em;
+      border: 6px solid #d4523c;
+      margin-bottom: 2em; }
 
-#welcome_content {
-  text-align: center; }
-  #welcome_content h1 {
-    font-size: 5.33rem;
-    font-weight: 100;
-    color: #ffffff;
-    margin-top: 1.5em;
-    margin-bottom: .5em; }
-    #welcome_content h1 b {
-      font-weight: 300; }
-  #welcome_content input[type="text"] {
-    height: 3.5em;
-    border-radius: .75em;
-    border: 6px solid #d4523c;
-    margin-bottom: 2em; }
+#main_header_nav {
+  background: #e74f36;
+  height: 80px;
+  line-height: 80px; }
+  #main_header_nav a {
+    display: inline-block; }
+    #main_header_nav a img {
+      width: 60px; }
+  #main_header_nav #main_search {
+    width: 25%;
+    height: 45px;
+    border-radius: .5em;
+    border: 3px solid #d4523c;
+    margin-left: 2em;
+    display: inline-block; }
+  #main_header_nav nav {
+    float: right; }
+    #main_header_nav nav ul {
+      list-style: none; }
+      #main_header_nav nav ul li {
+        display: inline-block;
+        margin-left: 2em; }
+        #main_header_nav nav ul li a {
+          font-size: 1.5rem;
+          text-decoration: none;
+          color: #ffffff; }
+        #main_header_nav nav ul li .button_tambah_mini {
+          font-weight: 400; }
+
+.filter {
+  background: #d3d3d3; }
 
 /*# sourceMappingURL=application.css.map */

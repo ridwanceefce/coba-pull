@@ -1,0 +1,41 @@
+#main_header_nav {
+  background: $red-light;
+  height: 80px;
+  line-height: 80px;
+  a {
+    display: inline-block;
+    img {
+      width: 60px;
+    }
+  }
+  #main_search {
+    width: 25%;
+    height: 45px;
+    border-radius: .5em;
+    border: 3px solid $red-dark;
+    margin-left: 2em;
+    display: inline-block;
+  }
+  nav {
+    float: right;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 2em;
+        a {
+          font-size: 1.5rem;
+          text-decoration: none;
+          color: $white;
+        }
+        .button_tambah_mini {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.filter {
+  background: $gray-light;
+}

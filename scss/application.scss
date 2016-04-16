@@ -11,7 +11,7 @@ $blue-light     : #2f3b4c;
 $btn-blue       : #3f96f8;
 
 body {
-  background: $red-light;
+  background: $white;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
@@ -29,6 +29,10 @@ body {
 .wrapper_wide {
   width: 90%;
   margin: 0 auto;
+}
+
+.wrapper_padding {
+  padding: 0 1.5rem;
 }
 
 .wrapper {
@@ -78,6 +82,35 @@ p, ul, ol {
   margin: 0 0 1.6em 0;
 }
 
+.button_tambah {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: .8em 1.5em;
+  border: 2px solid $white;
+  transition: background .4s ease-in-out;
+  border-radius: .5em;
+  color: $white;
+  background: $red-dark;
+  &:hover {
+    background: darken($red-dark, 10%);
+  }
+}
+
+.button_tambah_mini {
+  padding: .25em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 2px solid $white;
+  transition: background .4s ease-in-out;
+  border-radius: .5em;
+  color: $white;
+  background: $red-dark;
+  &:hover {
+    background: darken($red-dark, 10%);
+  }
+}
 
 footer {
   border-top: 1px solid $white;
@@ -99,4 +132,5 @@ footer {
   }
 }
 
-@import "welcome"
+@import "welcome";
+@import "kosts";
