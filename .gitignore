@@ -1,0 +1,6 @@
+.npm-global
+.npm-global/*
+
+.sass-cache
+.sass-cache/*
+*.map
