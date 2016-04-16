@@ -1,3 +1,5 @@
+@import "normalize";
+
 $white          : #ffffff;
 $black          : #000000;
 $red-light      : #e74f36;
@@ -7,3 +9,94 @@ $gray-light     : #d3d3d3;
 $blue-dark      : #2f3b4c;
 $blue-light     : #2f3b4c;
 $btn-blue       : #3f96f8;
+
+body {
+  background: $red-light;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper_wide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper_skinny {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  color: $white;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.375rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p, li {
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+p, ul, ol {
+  margin: 0 0 1.6em 0;
+}
+
+
+footer {
+  border-top: 1px solid $white;
+  margin-top: 5em;
+  padding-top: 1.5em;
+  .copyright {
+    float: left;
+    font-size: 1.5rem;
+    color: $white;
+  }
+  nav {
+    float: right;
+    a {
+      font-size: 1.5em;
+      margin-left: .75em;
+      font-size: 1.2rem;
+      color: $white;
+    }
+  }
+}
+
+@import "welcome"
